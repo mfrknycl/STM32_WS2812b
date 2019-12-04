@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Furkan Yucel, vgtu, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.28.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Saulenas\iCloudDrive\SAULES GRAZA\Programming\STM32\RGBs_WS2811 (2)\MDK-ARM\RGBs_WS2811.uvprojx
+Project File Date:  11/29/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'RGBs_WS2811'
+compiling leds.c...
+../Inc/leds.h(61): warning:  #1295-D: Deprecated declaration ledRunAnimation1 - give arg types
+  void ledRunAnimation1();
+../Inc/leds.h(62): warning:  #1295-D: Deprecated declaration ledRunAnimation2 - give arg types
+  void ledRunAnimation2();
+../Inc/leds.h(63): warning:  #1295-D: Deprecated declaration ledRunAnimation3 - give arg types
+  void ledRunAnimation3();
+../Inc/leds.h(65): warning:  #1295-D: Deprecated declaration ledRunAnimation5 - give arg types
+  void ledRunAnimation5();
+../Inc/leds.h(66): warning:  #1295-D: Deprecated declaration ledRunAnimation6 - give arg types
+  void ledRunAnimation6();
+../Inc/leds.h(67): warning:  #1295-D: Deprecated declaration ledDemo - give arg types
+  void ledDemo();
+../Inc/leds.h(71): warning:  #1295-D: Deprecated declaration spiSendReset - give arg types
+  void spiSendReset();														//it is working fine.
+../Inc/leds.h(78): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LEDS_H */
+..\Src\leds.c(326): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i,    color, 10,  enable);
+..\Src\leds.c(327): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+1,  color, 30,  enable);
+..\Src\leds.c(328): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+2,  color, 50,  enable);
+..\Src\leds.c(329): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+3,  color, 70,  enable);
+..\Src\leds.c(330): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+4,  color, 90,  enable);
+..\Src\leds.c(331): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+5,  color, 110, enable);
+..\Src\leds.c(332): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+6,  color, 130, enable);
+..\Src\leds.c(333): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+7,  color, 150, enable);
+..\Src\leds.c(334): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+8,  color, 170, enable);
+..\Src\leds.c(335): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+9,  color, 190, enable);
+..\Src\leds.c(336): warning:  #188-D: enumerated type mixed with another type
+  				ledSingleOn(i+10, color, 210, enable);
+..\Src\leds.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=7296 RO-data=236 RW-data=28 ZI-data=1444  
+FromELF: creating hex file...
+"RGBs_WS2811\RGBs_WS2811.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_RGBs_WS2811
+  C:\Users\Saulenas\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\Saulenas\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
